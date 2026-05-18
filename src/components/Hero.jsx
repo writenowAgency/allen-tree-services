@@ -50,7 +50,7 @@ export default function Hero() {
 
       {/* Decorative circles */}
       <div className="absolute top-1/4 left-0 w-80 h-80 bg-green-500/10 rounded-full blur-3xl -translate-x-1/2" />
-      <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-emerald-400/8 rounded-full blur-3xl translate-x-1/3" />
+      <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-emerald-400/8 rounded-full blur-3xl -translate-x-1/3" />
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-20">

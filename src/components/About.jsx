@@ -21,7 +21,7 @@ export default function About() {
   const inView  = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section id="about" className="py-20 lg:py-28 bg-white" aria-label="About us">
+    <section id="about" className="py-20 lg:py-28 bg-white overflow-hidden" aria-label="About us">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div ref={ref} className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
