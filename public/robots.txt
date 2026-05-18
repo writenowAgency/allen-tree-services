@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://allentreecutting.co.za/sitemap.xml

@@ -1,0 +1,21 @@
+{
+  "name": "Allen Tree Cutting Services",
+  "short_name": "Allen Tree",
+  "description": "Professional tree felling, trimming, stump removal, gardening, paving, lawn installation, grass cutting and painting services in Cape Town.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "icons": [
+    {
+      "src": "/Allen Tree Cutting Services-organic-nature.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Allen Tree Cutting Services-organic-nature.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
