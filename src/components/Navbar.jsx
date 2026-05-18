@@ -38,8 +38,10 @@ export default function Navbar() {
 
   const handleNav = (e, href) => {
     e.preventDefault()
-    scrollTo(href.replace('#', ''))
     setOpen(false)
+    // Wait for mobile menu close animation (220ms) before scrolling so the
+    // collapsing height doesn't shift the scroll target position.
+    setTimeout(() => scrollTo(href.replace('#', '')), 250)
   }
 
   return (
